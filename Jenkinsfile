@@ -71,12 +71,13 @@ pipeline {
         }
     }
 
-    post {
-        failure {
-            echo "❌ Build failed."
-        }
-        success {
-            echo "✅ Application deployed successfully to AKS!"
-        }
-    }
+   post {
+    failure {
+        echo "❌ Build failed."
+    }
+    success {
+        echo "✅ Application deployed successfully to AKS!"
+    }
+}
+
 }
