@@ -1,0 +1,6 @@
+@aks_cluster_HostAddress = http://localhost:5121
+
+GET {{aks_cluster_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
