@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        AZURE_CREDENTIALS_ID = 'azure-service-principal123' // Must be configured in Jenkins credentials
+        AZURE_CREDENTIALS_ID = 'azure-service-principal' // Must be configured in Jenkins credentials
         ACR_NAME = "dushyant01"
         ACR_LOGIN_SERVER = "acrdushyant1.azurecr.io"
         IMAGE_NAME = "mywebapidushyant"
